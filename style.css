@@ -46,7 +46,9 @@ ul.links{
 .four{
     display: flex;
     justify-content: space-around;
-    margin:20px;
+    margin: 0 8em;
+    margin-top: 2em;
+    margin-bottom: 10em;
     padding:20px;
     background-color: #3882f6;
     border-radius: 20px;
@@ -93,4 +95,26 @@ p.big{
 p.small{
     font-size: 18px;
     color:#e5e7eb;
+}
+.two{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 8em;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card > .box{
+    border: 4px solid #3882f6;
+    width:100px;
+    height: 100px;
+    border-radius: 16px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
