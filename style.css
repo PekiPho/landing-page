@@ -73,7 +73,7 @@ div.awesome{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 8em;
+    padding: 0 10em;
     gap:20px;
     margin-bottom: 30px;
 }
